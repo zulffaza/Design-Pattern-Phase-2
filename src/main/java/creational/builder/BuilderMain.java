@@ -1,5 +1,7 @@
 package creational.builder;
 
+import creational.builder.model.User;
+
 /**
  * Class untuk melakukan testing design pattern builder
  *

@@ -1,5 +1,7 @@
 package creational.singleton;
 
+import creational.singleton.model.SingletonUser;
+
 /**
  * Class untuk melakukan testing design pattern singleton
  *

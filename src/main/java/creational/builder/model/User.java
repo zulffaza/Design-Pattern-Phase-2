@@ -1,4 +1,4 @@
-package creational.builder;
+package creational.builder.model;
 
 /**
  * Merupakan class yang mengimplementasikan builder pattern

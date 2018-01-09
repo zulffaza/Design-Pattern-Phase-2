@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational.singleton.model;
 
 /**
  * Merupakan class yang mengimplementasikan Singleton Pattern
