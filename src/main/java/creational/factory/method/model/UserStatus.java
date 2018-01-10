@@ -1,4 +1,4 @@
-package creational.factory.method.Model;
+package creational.factory.method.model;
 
 /**
  * Merupakan class enum yang mengatur status dari User

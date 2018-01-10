@@ -1,4 +1,4 @@
-package creational.factory.method.Model;
+package creational.factory.method.model;
 
 /**
  * Merupakan salah satu child dari interface User
@@ -7,7 +7,7 @@ package creational.factory.method.Model;
  * @since 9 January 2018
  * @version 1.0.0
  */
-public class Lecturer implements User {
+public class Student implements User {
 
     /**
      * Field nik Lecturer, bertipe Integer
@@ -27,7 +27,7 @@ public class Lecturer implements User {
     /**
      * Merupakan default constructor dari Lecturer
      */
-    public Lecturer() {
+    public Student() {
 
     }
 
@@ -38,7 +38,7 @@ public class Lecturer implements User {
      * @param name merupakan name dari Lecturer
      * @param email merupakan email dari Lecturer
      */
-    public Lecturer(Integer nik, String name, String email) {
+    public Student(Integer nik, String name, String email) {
         this.nik = nik;
         this.name = name;
         this.email = email;
@@ -104,7 +104,7 @@ public class Lecturer implements User {
     @Override
     public void introduction() {
         System.out.println("");
-        System.out.println("Lecturer :");
+        System.out.println("Student :");
         System.out.println("Nik : " + nik);
         System.out.println("Name : " + name);
         System.out.println("Email : " + email);

@@ -1,8 +1,8 @@
 package creational.factory.method;
 
-import creational.factory.method.Model.User;
-import creational.factory.method.Model.UserFactory;
-import creational.factory.method.Model.UserStatus;
+import creational.factory.method.model.User;
+import creational.factory.method.factory.UserFactory;
+import creational.factory.method.model.UserStatus;
 
 /**
  * Class untuk melakukan testing design pattern Factory

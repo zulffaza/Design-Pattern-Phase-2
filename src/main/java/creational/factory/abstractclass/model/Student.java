@@ -1,4 +1,4 @@
-package creational.factory.method.Model;
+package creational.factory.abstractclass.model;
 
 /**
  * Merupakan salah satu child dari interface User

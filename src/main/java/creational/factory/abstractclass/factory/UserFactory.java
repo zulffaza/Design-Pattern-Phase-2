@@ -1,13 +1,15 @@
-package creational.factory.method.Model;
+package creational.factory.abstractclass.factory;
+
+import creational.factory.abstractclass.model.*;
 
 /**
  * Merupakan class factory yang mengatur dibuatnya instance / object User sesuai statusnya
  *
  * @author Faza Zulfika P P
- * @since 9 January 2018
- * @version 1.0.0
+ * @since 10 January 2018
+ * @version 2.0.0
  */
-public class UserFactory {
+public class UserFactory implements Factory {
 
     /**
      * Method yang digunakan untuk membuat instance / object User sesuai statusnya
@@ -33,5 +35,19 @@ public class UserFactory {
             default: // Jika userstatus tidak ditemukan
                 return null; // Mengembalikan null
         }
+    }
+
+    /**
+     * Method yang digunakan untuk membuat instance / object Animal sesuai tipenya
+     * Pada class ini method ini tidak digunakan, karena class ini adalah factory untuk instance / object User
+     *
+     * @param age merupakan umur dari Animal
+     * @param name merupakan name dari Animal
+     * @param animalType merupakan tipe dari Animal
+     * @return merupakan instance / object dari Animal
+     */
+    @Override
+    public Animal getAnimal(Integer age, String name, AnimalType animalType) {
+        return null;
     }
 }
