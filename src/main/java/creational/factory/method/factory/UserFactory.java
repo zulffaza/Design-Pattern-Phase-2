@@ -9,17 +9,17 @@ import creational.factory.method.model.UserStatus;
  * Merupakan class factory yang mengatur dibuatnya instance / object User sesuai statusnya
  *
  * @author Faza Zulfika P P
- * @since 9 January 2018
  * @version 1.0.0
+ * @since 9 January 2018
  */
 public class UserFactory {
 
     /**
      * Method yang digunakan untuk membuat instance / object User sesuai statusnya
      *
-     * @param nik merupakan nik dari User
-     * @param name merupakan name dari User
-     * @param email merupakan email dari User
+     * @param nik        merupakan nik dari User
+     * @param name       merupakan name dari User
+     * @param email      merupakan email dari User
      * @param userStatus merupakan status dari User
      * @return merupakan instance / object dari User
      */

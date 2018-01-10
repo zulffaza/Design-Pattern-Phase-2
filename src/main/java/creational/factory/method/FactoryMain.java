@@ -8,8 +8,8 @@ import creational.factory.method.model.UserStatus;
  * Class untuk melakukan testing design pattern Factory
  *
  * @author Faza Zulfika P P
- * @since 9 January 2018
  * @version 1.0.0
+ * @since 9 January 2018
  */
 public class FactoryMain {
 

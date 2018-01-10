@@ -4,8 +4,8 @@ package creational.singleton.model;
  * Merupakan class yang mengimplementasikan Singleton Pattern
  *
  * @author Faza Zulfika P P
- * @since 9 January 2018
  * @version 1.0.0
+ * @since 9 January 2018
  */
 public class SingletonUser {
 

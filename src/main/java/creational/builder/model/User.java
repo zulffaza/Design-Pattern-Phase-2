@@ -4,8 +4,8 @@ package creational.builder.model;
  * Merupakan class yang mengimplementasikan builder pattern
  *
  * @author Faza Zulfika P P
- * @since 9 January 2017
  * @version 1.0.0
+ * @since 9 January 2017
  */
 public class User {
 
@@ -44,7 +44,7 @@ public class User {
     /**
      * Merupakan constructor yang menerima dua parameter, nrp dan name
      *
-     * @param nrp merupakan nrp user
+     * @param nrp  merupakan nrp user
      * @param name merupakan name user
      */
     public User(Integer nrp, String name) {
@@ -159,8 +159,8 @@ public class User {
      * Merupakan class builder untuk membuat instance / object dari class User
      *
      * @author Faza Zulfika P P
-     * @since 9 January 2018
      * @version 1.0.0
+     * @since 9 January 2018
      */
     public static class Builder {
 
@@ -199,7 +199,7 @@ public class User {
         /**
          * Merupakan constructor yang menerima dua parameter, nrp dan name
          *
-         * @param nrp merupakan nrp dari user
+         * @param nrp  merupakan nrp dari user
          * @param name merupakan nama dari user
          */
         public Builder(Integer nrp, String name) {

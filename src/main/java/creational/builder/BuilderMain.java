@@ -6,8 +6,8 @@ import creational.builder.model.User;
  * Class untuk melakukan testing design pattern builder
  *
  * @author Faza Zulfika P P
- * @since 9 January 2018
  * @version 1.0.0
+ * @since 9 January 2018
  */
 public class BuilderMain {
 

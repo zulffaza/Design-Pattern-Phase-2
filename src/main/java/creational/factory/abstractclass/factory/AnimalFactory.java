@@ -6,8 +6,8 @@ import creational.factory.abstractclass.model.*;
  * Merupakan class factory yang mengatur dibuatnya instance / object Animal sesuai tipenya
  *
  * @author Faza Zulfika P P
- * @since 10 January 2018
  * @version 1.0.0
+ * @since 10 January 2018
  */
 public class AnimalFactory implements Factory {
 
@@ -15,9 +15,9 @@ public class AnimalFactory implements Factory {
      * Method yang digunakan untuk membuat instance / object User sesuai statusnya
      * Pada class ini method ini tidak digunakan, karena class ini adalah factory untuk instance / object Animal
      *
-     * @param nik merupakan nik dari User
-     * @param name merupakan name dari User
-     * @param email merupakan email dari User
+     * @param nik        merupakan nik dari User
+     * @param name       merupakan name dari User
+     * @param email      merupakan email dari User
      * @param userStatus merupakan status dari User
      * @return merupakan instance / object dari User
      */
@@ -29,8 +29,8 @@ public class AnimalFactory implements Factory {
     /**
      * Method yang digunakan untuk membuat instance / object Animal sesuai tipenya
      *
-     * @param age merupakan umur dari Animal
-     * @param name merupakan name dari Animal
+     * @param age        merupakan umur dari Animal
+     * @param name       merupakan name dari Animal
      * @param animalType merupakan tipe dari Animal
      * @return merupakan instance / object dari Animal
      */

@@ -6,8 +6,8 @@ import creational.singleton.model.SingletonUser;
  * Class untuk melakukan testing design pattern singleton
  *
  * @author Faza Zulfika P P
- * @since 9 January 2018
  * @version 1.0.0
+ * @since 9 January 2018
  */
 public class SingletonMain {
 

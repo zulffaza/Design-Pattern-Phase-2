@@ -1,4 +1,4 @@
-package creational.factory.abstractclass.model;
+package creational.prototype.model;
 
 /**
  * Merupakan salah satu child dari interface User
@@ -13,7 +13,7 @@ public class Lecturer extends User {
      * Merupakan default constructor dari Lecturer
      */
     public Lecturer() {
-        // Default constructor
+
     }
 
     /**

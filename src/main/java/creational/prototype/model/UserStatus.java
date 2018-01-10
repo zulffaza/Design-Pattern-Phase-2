@@ -1,4 +1,4 @@
-package creational.factory.abstractclass.model;
+package creational.prototype.model;
 
 /**
  * Merupakan class enum yang mengatur status dari User

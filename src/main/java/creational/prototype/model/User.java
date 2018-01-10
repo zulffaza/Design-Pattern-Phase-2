@@ -1,13 +1,13 @@
-package creational.factory.abstractclass.model;
+package creational.prototype.model;
 
 /**
- * Merupakan class yang diimplementasi kepada semua yang dikelola user factory
+ * Merupakan class yang diimplementasi kepada semua yang dikelola factory
  *
  * @author Faza Zulfika P P
  * @version 2.0.0
  * @since 9 January 2018
  */
-public abstract class User {
+public abstract class User implements Cloneable {
 
     /**
      * Field nik User, bertipe Integer
@@ -76,6 +76,25 @@ public abstract class User {
      */
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    /**
+     * Merupakan method untuk membuat cloning dari instance / object ini
+     *
+     * @return merupakan instance / object cloning
+     * @throws CloneNotSupportedException bila instance / object tidak dapat di clone
+     */
+    @Override
+    public User clone() throws CloneNotSupportedException {
+        User clone = null; // Membuat instance / object reference untuk menyimpan clone object
+
+        try {
+            clone = (User) super.clone(); // Mengclone instance / object ini
+        } catch (CloneNotSupportedException e) { // Jika instance / object tidak dapat di clone
+            e.printStackTrace(); // Mencetak error yang didapatkan
+        }
+
+        return clone; // Mengembalikan instance / object yang telah di clone
     }
 
     /**
