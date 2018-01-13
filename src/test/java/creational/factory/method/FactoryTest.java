@@ -11,7 +11,7 @@ import creational.factory.method.model.UserStatus;
  * @version 1.0.0
  * @since 9 January 2018
  */
-public class FactoryMain {
+public class FactoryTest {
 
     /**
      * Method main dari aplikasi

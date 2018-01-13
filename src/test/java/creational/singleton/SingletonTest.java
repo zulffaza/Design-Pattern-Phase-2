@@ -9,7 +9,7 @@ import creational.singleton.model.SingletonUser;
  * @version 1.0.0
  * @since 9 January 2018
  */
-public class SingletonMain {
+public class SingletonTest {
 
     /**
      * Method main dari aplikasi

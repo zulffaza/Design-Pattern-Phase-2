@@ -9,7 +9,7 @@ import creational.builder.model.User;
  * @version 1.0.0
  * @since 9 January 2018
  */
-public class BuilderMain {
+public class BuilderTest {
 
     /**
      * Method main dari aplikasi

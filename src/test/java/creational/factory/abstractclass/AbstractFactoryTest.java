@@ -13,7 +13,7 @@ import creational.factory.abstractclass.model.UserStatus;
  * @version 1.0.0
  * @since 10 January 2018
  */
-public class AbstractFactoryMain {
+public class AbstractFactoryTest {
 
     /**
      * Method main dari aplikasi
