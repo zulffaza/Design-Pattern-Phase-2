@@ -1,7 +1,7 @@
 package creational.prototype.model;
 
 /**
- * Merupakan class yang diimplementasi kepada semua yang dikelola factory
+ * Merupakan class yang diimplementasi kepada semua yang dikelola cache
  *
  * @author Faza Zulfika P P
  * @version 2.0.0

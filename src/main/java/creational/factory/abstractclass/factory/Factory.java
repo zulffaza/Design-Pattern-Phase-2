@@ -23,7 +23,7 @@ public interface Factory {
      * @param userStatus merupakan status dari User
      * @return merupakan instance / object dari User
      */
-    public User getUser(Integer nik, String name, String email, UserStatus userStatus);
+    User getUser(Integer nik, String name, String email, UserStatus userStatus);
 
     /**
      * Method yang digunakan untuk membuat instance / object Animal sesuai tipenya
@@ -33,5 +33,5 @@ public interface Factory {
      * @param animalType merupakan tipe dari Animal
      * @return merupakan instance / object dari Animal
      */
-    public Animal getAnimal(Integer age, String name, AnimalType animalType);
+    Animal getAnimal(Integer age, String name, AnimalType animalType);
 }
